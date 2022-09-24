@@ -1,0 +1,21 @@
+{% extends "/base.html" %}
+
+{% block titulo %}{% endblock %}
+
+{% block contenido %}
+<nav class=" navbar navbar-dark bg-dark">
+    <a class="ms-3 navbar-brand">Dashboard</a>
+    <form class="form-inline">
+
+        <a class="btn btn-danger" href="/logout">
+            <i class="fa fa-sign-out fa-1x"></i> salir</a>
+
+    </form>
+</nav>
+<div class="container mt-5">
+
+</nav>
+    <h2>Bienvenido {{session['usuario']}}</h2>
+</div>
+
+{% endblock %}
