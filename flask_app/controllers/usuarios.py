@@ -47,7 +47,7 @@ def registrar():
         return redirect("/")
 
     flash("Usuario creado correctamente", "success")
-    return redirect('/')
+    return redirect('/login')
 
 @app.route("/procesar_login", methods=["POST"])
 def procesar_login():

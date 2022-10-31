@@ -1,0 +1,7 @@
+APP_SECRET_KEY=cualquiera
+BASE_DATOS_NOMBRE=esquema_usuario
+
+(Datos que son reemplazados en flask_app\config\mysqlconnection.py)
+BASEDATOS_HOST=localhost
+USER=
+PASSWORD=

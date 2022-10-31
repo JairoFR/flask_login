@@ -6,16 +6,14 @@
 <nav class=" navbar navbar-dark bg-dark">
     <a class="ms-3 navbar-brand">Dashboard</a>
     <form class="form-inline">
-
-        <a class="btn btn-danger" href="/logout">
+        <a class="btn btn-danger m-3" href="/logout">
             <i class="fa fa-sign-out fa-1x"></i> salir</a>
-
     </form>
 </nav>
 <div class="container mt-5">
-
-</nav>
-    <h2>Bienvenido {{session['usuario']}}</h2>
+    <div class="row text-center">
+        <h1>Bienvenido {{session['usuario']}}</h1>
+    </div>
 </div>
-
 {% endblock %}
+
